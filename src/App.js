@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+
+//importing boostrap into the app
+import 'bootstrap/dist/css/bootstrap.css';
+
+//import individual components into this page
+
+// import NavBar from './components/NavBar';
+// import Footer from './components/Footer'
+
+//importing React Router to make nav bar functional
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
+//page components
+// import AboutPage from './AboutMe/AboutMe';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <NavBar />
+        <Switch>
+          {/* <Route exact path="/" component={HomePage}></Route> */}
+
+        </Switch>
+        <div id = "contact">
+            <Footer/>
+        </div>
+      </div>
+    </Router>
   );
 }
 
