@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 //import individual components into this page
 
 // import NavBar from './components/NavBar';
-// import Footer from './components/Footer'
+// import Footer from './components/Footer';
 
 //importing React Router to make nav bar functional
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -22,6 +22,7 @@ function App() {
       <div className="App">
         <NavBar />
         <Switch>
+          {/* use for the navigation bar, just follow this pattern to route the path on the url to the pages */}
           {/* <Route exact path="/" component={HomePage}></Route> */}
 
         </Switch>
