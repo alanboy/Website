@@ -20,14 +20,14 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <NavBar />
+        {/* <NavBar /> */}
         <Switch>
           {/* use for the navigation bar, just follow this pattern to route the path on the url to the pages */}
-          {/* <Route exact path="/" component={HomePage}></Route> */}
+          <Route exact path="/" component={HomePage}></Route>
 
         </Switch>
         <div id = "contact">
-            <Footer/>
+            {/* <Footer/> */}
         </div>
       </div>
     </Router>
