@@ -1,0 +1,14 @@
+a{
+  color: #665C84;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+a:hover{
+  color: #FAB95B;
+}
+
+
+.navbar {
+  padding: 0px;
+}

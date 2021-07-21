@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap/';
 
 // use the logo
-import logo from '../images/logo.png';
+// import logo from '../images/logo.png';
 
 
 function NavBar() {
@@ -19,8 +19,8 @@ function NavBar() {
                 bg="light"
             >
                 {/* NavBar Logo */}
-                <Navbar.Brand className="navbar-item">
-                    <Link to="/">
+                {/* <Navbar.Brand className="navbar-item">
+                    {/* <Link to="/">
                         <img
                             alt=""
                             src={logo}
@@ -28,19 +28,20 @@ function NavBar() {
                             height="75"
                             className="d-inline-block align-top"
                         />{' '}
-                    </Link>
+                    </Link> */}
 
-                </Navbar.Brand>
+                {/* </Navbar.Brand> */}
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav justify-content-end">
                     <Nav
                         className="mr-auto"
                     >
                         <Nav.Link className="navbar-item">
-                            <Link to="/about">
-                                About Mia
+                            <Link to="/">
+                                About Us
                             </Link>
                         </Nav.Link>
+
                         <Nav.Link className="navbar-item">
 
                             {/* <Link to="/pilates">
@@ -61,11 +62,6 @@ function NavBar() {
                             </Link> */}
                         </Nav.Link>
 
-                        <Nav.Link className="navbar-item">
-                            {/* <Link to="/pricing">
-                                Pricing
-                            </Link> */}
-                        </Nav.Link>
 
                         {/* href will take you to a section, not a new page */}
                         <Nav.Link className="navbar-item" href="#contact">

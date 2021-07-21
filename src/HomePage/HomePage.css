@@ -1,0 +1,82 @@
+h1{
+  text-align: center;
+}
+
+p {
+  font-size: large;
+  padding-top: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+
+.banner{
+  height:10rem;
+  width: 100%;
+}
+
+.index-intro{
+  width:100%;
+  background-color: #f3f3f3;
+}
+
+.index-intro .jumbotron {
+  padding: 0px;
+}
+
+.banner-image {
+  position: relative;
+  width: 100%; /* for IE 6 */
+}
+
+.banner-title{
+   color: white;
+   position: absolute;
+   top: 40%;
+   left: 0;
+   width: 100%;
+}
+
+.studio-section{
+  padding: 5rem 15%;
+}
+
+.studio-description {
+  padding: 1rem 5rem;
+
+}
+
+
+
+@media (max-width: 900px) {
+  .carousel {
+    width:auto;
+    height:auto;
+  }
+}
+
+.services-section {
+  padding: 0 15%;
+}
+
+.card {
+  width:100%;
+}
+
+.card-deck {
+  padding-top: 3rem;
+}
+
+/* ****About Section**** */
+
+.about {
+  margin: 5%;
+}
+
+
+
+
+
+
