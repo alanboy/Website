@@ -5,14 +5,18 @@ import React from 'react';
 //    to go back to the overall src file, we could do ../
 import './ProjectsPage.css';
 
-function PricingPage() {
-    return (
-      //THIS IS WHERE YOU PUT ALL THE HTML
-      //  dont delete this outer div, idk why it doesnt work without it
-      <div className="ProjectsPage">
+function ProjectsPage() {
+  return (
+    //THIS IS WHERE YOU PUT ALL THE HTML
+    //  dont delete this outer div, idk why it doesnt work without it
+    <div className="ProjectsPage">
+      <p>
+        Hello World 
+      </p>
 
-      </div>
-    );
-  }
 
-  export default ProjectsPage;
+    </div>
+  );
+}
+
+export default ProjectsPage;
