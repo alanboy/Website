@@ -15,6 +15,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 //page components
 import HomePage from './HomePage/HomePage';
 import TeamsPage from './TeamsPage/TeamsPage';
+import ProjectsPage from './ProjectsPage/ProjectsPage';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           {/* use for the navigation bar, just follow this pattern to route the path on the url to the pages */}
           <Route exact path="/" component={HomePage}></Route>
           <Route exact path="/Teams" component={TeamsPage}></Route>
+          <Route exact path="/projects" component={ProjectsPage}></Route>
 
         </Switch>
         <div id = "contact">
