@@ -10,7 +10,7 @@ function TeamsPage() {
     //THIS IS WHERE YOU PUT ALL THE HTML
     //  dont delete this outer div, idk why it doesnt work without it
     <div className="TeamsPage">
-      <h1>"Testing"</h1>
+      <h1>Current Team</h1>
     </div>
   );
 }
