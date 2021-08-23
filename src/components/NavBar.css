@@ -1,14 +1,12 @@
-a{
+#nav-logo {
   color: #665C84;
-  padding-right: 1rem;
-  padding-left: 1rem;
 }
 
-a:hover{
+a, .nav-link {
+  color: #665C84;
+  text-decoration: none;
+}
+
+a:hover {
   color: #FAB95B;
-}
-
-
-.navbar {
-  padding: 0px;
 }
