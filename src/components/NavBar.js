@@ -2,8 +2,10 @@ import React from 'react';
 import './NavBar.css';
 
 // get ability to link from react router, styling components from boostrap
-import { Link } from 'react-router-dom';
-import { Navbar, Nav, Container } from 'react-bootstrap/';
+import Link from 'react-router-dom/Link';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Container from 'react-bootstrap/Container';
 
 // use the logo
 import logo from "../images/logo1.jpg";
@@ -11,10 +13,10 @@ import logo from "../images/logo1.jpg";
 function NavBar() {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+            <Navbar collapseOnSelect expand="md" variant="light">
                 <Container>
-                    <Navbar.Brand className="justify-content-start" id="nav-logo">
-                        <Link to="/">
+                    <Navbar.Brand className="justify-content-start">
+                        <Link to="/" id="logo">
                             DUBvelopers
                         </Link>
                     </Navbar.Brand>
@@ -22,12 +24,6 @@ function NavBar() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
                         <Nav>
-                            <Nav.Link>
-                                <Link to="/AboutUs">
-                                    About Us
-                                </Link>
-                            </Nav.Link>
-
                             <Nav.Link>
                                 <Link to="/Teams">
                                     Teams
