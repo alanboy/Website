@@ -8,7 +8,7 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 
 // use the logo
-import logo from "../images/logo1.jpg";
+// import logo from "../images/logo1.jpg";
 
 function NavBar() {
     return (
