@@ -1,13 +1,25 @@
-a{
+a, .nav-link {
   color: #665C84;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: #FAB95B;
 }
 
-.navbar {
-  padding: 0px;
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  max-width: 80vw;
+}
+
+.navbar, .navbar-expand-md, .navbar-light {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#logo {
+  font-size: 24px;
+  font-weight: bold;
 }
