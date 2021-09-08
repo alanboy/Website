@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomePage.css';
-import Footer from '../components/Footer.js';
+import { Card } from 'react-bootstrap';
 
 function HomePage() {
     return (
@@ -20,7 +20,18 @@ function HomePage() {
             through a UW CS faculty advised curriculum and then apply them to the projects.
           </p>
         </div>
-        <Footer/>
+        <div className="projects-section">
+          <h1>Projects</h1>
+            <Card>
+              {/* <Card.Img variant="top" src="" /> */}
+              <Card.Body>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </Card.Text>
+                </Card.Body>
+            </Card>
+        </div>
       </div>
     );
   }

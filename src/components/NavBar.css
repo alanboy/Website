@@ -1,19 +1,19 @@
 a, .nav-link {
   color: #665C84;
   font-size: 20px;
-  font-family: Montserrat;
   text-decoration: none;
+  padding-left: .75em;
+  padding-right: .75em;
+
 }
 
 a:hover {
   color: #FAB95B;
 }
 
-<<<<<<< HEAD
 .navbar {
   padding: 0px;
 }
-=======
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
   max-width: 80vw;
 }
@@ -27,4 +27,3 @@ a:hover {
   font-size: 24px;
   font-weight: bold;
 }
->>>>>>> 02755119772b9634a88725d03dafa4d799cbbcef

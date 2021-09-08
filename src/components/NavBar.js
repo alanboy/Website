@@ -3,9 +3,7 @@ import './NavBar.css';
 
 // get ability to link from react router, styling components from boostrap
 import Link from 'react-router-dom/Link';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import Container from 'react-bootstrap/Container';
+import { Navbar, Nav , Container } from 'react-bootstrap';
 
 // use the logo
 import logo from "../images/logo1.jpg";
@@ -25,7 +23,7 @@ function NavBar() {
                     <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
                         <Nav>
                             <Nav.Link>
-                                <Link to="/Teams">
+                                <Link to="/teams">
                                     Teams
                                 </Link>
                             </Nav.Link>
@@ -37,7 +35,7 @@ function NavBar() {
                             </Nav.Link>
 
                             <Nav.Link>
-                                <Link to="/ContactUs">
+                                <Link to="#contact">
                                     Contact Us
                                 </Link>
                             </Nav.Link>
