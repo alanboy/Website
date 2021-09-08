@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
 
-//importing boostrap into the app
+// importing boostrap into the app
 // import 'bootstrap/dist/css/bootstrap.css';
 
-//import individual components into this page
+// import individual components into this page
 
 import NavBar from './components/NavBar';
 // import Footer from './components/Footer';
 
-//importing React Router to make nav bar functional
+// importing React Router to make nav bar functional
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
-//page components
+// page components
 import HomePage from './HomePage/HomePage';
 import TeamsPage from './TeamsPage/TeamsPage';
 import ProjectsPage from './ProjectsPage/ProjectsPage';
@@ -29,7 +29,7 @@ function App() {
           <Route exact path="/Teams" component={TeamsPage}></Route>
           <Route exact path="/projects" component={ProjectsPage}></Route>
         </Switch>
-        <div id = "contact">
+        <div id="contact">
             {/* <Footer/> */}
         </div>
       </div>
