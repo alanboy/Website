@@ -6,13 +6,13 @@ import React from 'react';
 import './TeamsPage.css';
 
 function TeamsPage() {
-    return (
-      //THIS IS WHERE YOU PUT ALL THE HTML
-      //  dont delete this outer div, idk why it doesnt work without it
-      <div className="TeamsPage">
+  return (
+    //THIS IS WHERE YOU PUT ALL THE HTML
+    //  dont delete this outer div, idk why it doesnt work without it
+    <div className="TeamsPage">
+      <h1>Current Team</h1>
+    </div>
+  );
+}
 
-      </div>
-    );
-  }
-
-  export default TeamsPage;
+export default TeamsPage;
