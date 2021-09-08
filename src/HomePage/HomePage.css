@@ -11,10 +11,13 @@ h3 {
   font-size: 1.5rem;
 }
 
-
 .banner{
   height:10rem;
+  background-color: #60989E;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .index-intro{
@@ -25,6 +28,7 @@ h3 {
 .index-intro .jumbotron {
   padding: 0px;
 }
+
 
 .banner-image {
   position: relative;

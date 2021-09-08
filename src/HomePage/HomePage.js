@@ -1,9 +1,13 @@
 import React from 'react';
 import './HomePage.css';
+import Footer from '../components/Footer.js';
 
 function HomePage() {
     return (
       <div className="HomePage">
+        <div className="banner">
+          <h1>Making Websites for Good</h1>
+        </div>
         <div className="about">
           <h1>About Us</h1>
           <p>DUBvelopers is a group dedicated to working on pro bono (free of charge)
@@ -17,6 +21,7 @@ function HomePage() {
             through a UW CS faculty advised curriculum and then apply them to the projects.
           </p>
         </div>
+        <Footer/>
       </div>
     );
   }
