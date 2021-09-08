@@ -7,9 +7,8 @@ function HomePage() {
         <div className="about">
           <h1>About Us</h1>
           <p>DUBvelopers is a group dedicated to working on pro bono (free of charge)
-            projects for the UW community and local businesses.
+            coding projects for the UW community and local businesses.
           </p>
-
 
           <p>Members of the club will work collaboratively to apply interdisciplinary
             knowledge in Computer Science and Design to support each project.
