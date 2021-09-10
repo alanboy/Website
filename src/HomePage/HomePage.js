@@ -54,11 +54,11 @@ function HomePage() {
               </Card.Body>
             </Card>
         </div>
-        <div className="container-fluid">
+        <div className="container-fluid discord">
           <h1>Join Our Discord!</h1>
           <p>Join our discord to get the latest news, updates, and announcements from the club.</p>
           <p>Communicate with your team easily through our discord!</p>
-          <Button className="button" variant="secondary" href="https://discord.gg/FNgd38xhtf">Join Our Discord</Button>{' '}
+          <Button variant="secondary" href="https://discord.gg/FNgd38xhtf">Join Our Discord</Button>{' '}
         </div>
       </div>
     );

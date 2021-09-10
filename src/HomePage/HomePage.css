@@ -98,10 +98,8 @@ iframe{
 
 /* Join Our Discord  */
 
-.button {
-  display: block;
-  width: 25%;
-  margin: 0 auto;
+.discord {
+  text-align: center;
 }
 
 @media (max-width: 900px) {

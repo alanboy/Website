@@ -6,12 +6,12 @@ import Link from 'react-router-dom/Link';
 import { Navbar, Nav , Container } from 'react-bootstrap';
 
 // use the logo
-// import logo from "../images/logo1.jpg";
+import logo from "../images/logo1.png";
 
 function NavBar() {
     return (
         <div>
-            <Navbar className="navbar" collapseOnSelect expand="md" variant="light">
+            <Navbar collapseOnSelect expand="md" variant="light">
                 <Container>
                     <Navbar.Brand className="justify-content-start">
                     <Link to="/">
@@ -28,12 +28,6 @@ function NavBar() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
                         <Nav>
-                            <Nav.Link>
-                                <Link to="/projects">
-                                    Projects
-                                </Link>
-                            </Nav.Link>
-
                             <Nav.Link>
                                 <Link to="/teams">
                                     Teams
