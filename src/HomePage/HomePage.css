@@ -1,5 +1,10 @@
 h1{
   text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  color: white;
 }
 
 p {
@@ -7,8 +12,24 @@ p {
   padding-top: 1rem;
 }
 
+p.card-text {
+  text-align: center;
+}
+
 h3 {
   font-size: 1.5rem;
+}
+
+iframe{
+  width:100%;
+}
+
+/* a {
+  color:black;
+} */
+
+.container-fluid {
+  padding: 5% 10%;
 }
 
 .banner{
@@ -19,16 +40,6 @@ h3 {
   align-items: center;
   justify-content: center;
 }
-
-.index-intro{
-  width:100%;
-  background-color: #f3f3f3;
-}
-
-.index-intro .jumbotron {
-  padding: 0px;
-}
-
 
 .banner-image {
   position: relative;
@@ -43,16 +54,55 @@ h3 {
    width: 100%;
 }
 
-.studio-section{
-  padding: 5rem 15%;
+/* Features/Why Us */
+
+.why-us{
+  padding: 5% 10%;
+  background-color: #b2a8ce;
+  position: relative;
 }
 
-.studio-description {
-  padding: 1rem 5rem;
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #665C84;
+  margin-bottom: 1rem;
 
 }
 
+.icon:hover{
+  color: #3f3952;
+}
 
+/* Projects */
+
+.project-card {
+  text-align: center;
+}
+
+.card {
+  margin: 5% 25%;
+  height: 40vw;
+}
+.card-body {
+  padding: 0;
+  height: 100%;
+}
+
+.card-deck {
+  padding-top: 3rem;
+}
+
+/* Join Our Discord  */
+
+.button {
+  display: block;
+  width: 25%;
+  margin: 0 auto;
+}
 
 @media (max-width: 900px) {
   .carousel {
@@ -60,25 +110,6 @@ h3 {
     height:auto;
   }
 }
-
-.services-section {
-  padding: 0 15%;
-}
-
-.card {
-  width:100%;
-}
-
-.card-deck {
-  padding-top: 3rem;
-}
-
-/* ****About Section**** */
-
-.about {
-  margin: 5%;
-}
-
 
 
 

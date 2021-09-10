@@ -11,26 +11,32 @@ import logo from "../images/logo1.jpg";
 function NavBar() {
     return (
         <div>
-            <Navbar collapseOnSelect expand="md" variant="light">
+            <Navbar className="navbar" collapseOnSelect expand="md" variant="light">
                 <Container>
                     <Navbar.Brand className="justify-content-start">
-                        <Link to="/" id="logo">
-                            DUBvelopers
-                        </Link>
+                    <Link to="/">
+                        <img
+                            alt=""
+                            src={logo}
+                            width="90"
+                            height="90"
+                        />{' '}
+                        DUBvelopers
+                    </Link>
                     </Navbar.Brand>
 
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
                         <Nav>
                             <Nav.Link>
-                                <Link to="/teams">
-                                    Teams
+                                <Link to="/projects">
+                                    Projects
                                 </Link>
                             </Nav.Link>
 
                             <Nav.Link>
-                                <Link to="/projects">
-                                    Projects
+                                <Link to="/teams">
+                                    Teams
                                 </Link>
                             </Nav.Link>
 
