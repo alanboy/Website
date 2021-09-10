@@ -28,6 +28,13 @@ function NavBar() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
                         <Nav>
+
+                            <Nav.Link>
+                                <Link to="/projects">
+                                    Projects
+                                </Link>
+                            </Nav.Link>
+
                             <Nav.Link>
                                 <Link to="/teams">
                                     Teams
