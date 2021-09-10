@@ -1,17 +1,23 @@
 a, .nav-link {
-  color: #665C84;
+  color: #665c84;
   font-size: 20px;
-  font-family: Montserrat;
-  font-weight: 500;
   text-decoration: none;
+  padding-left: .75em;
+  padding-right: .75em;
+
 }
 
 a:hover {
   color: #FAB95B;
 }
 
+.navbar-brand {
+  font-weight: bold;
+  font-size: large;
+}
+
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-  max-width: 80vw;
+  max-width: 95vw;
 }
 
 .navbar, .navbar-expand-md, .navbar-light {
@@ -22,4 +28,29 @@ a:hover {
 #logo {
   font-size: 24px;
   font-weight: bold;
+}
+
+.footer-section{
+  padding: 7% 15%;
+}
+
+.social-media{
+  color: black;
+  padding: 3%;
+  width: auto;
+}
+
+.social-section {
+  padding-top: 3%;
+  text-align: center;
+
+}
+
+.uw-logo {
+  width: 0.5vw;
+}
+
+.copyright{
+  text-align: center;
+  padding-top: 1%;
 }
