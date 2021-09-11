@@ -9,9 +9,9 @@ function ProjectsPage() {
   return (
     <body className="project">
       <div className="project-header">
-        <div><h2 className="project-title">Open Sky Studio Website<br/></h2></div>
-        <div><h4 className="project-client">Open Sky Studio</h4></div>
-      </div>
+        <div className="project-title"><h2 className="project-title">Open Sky Studio Website<br/></h2></div></div>
+      <div><h4 className="project-client">Open Sky Studio</h4></div>
+
       <div className="project-body">
         <div className="pbleft">
           <h4>Team Members</h4>

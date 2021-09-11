@@ -42,6 +42,12 @@ function NavBar() {
                             </Nav.Link>
 
                             <Nav.Link>
+                                <Link to="/resources">
+                                    Resources
+                                </Link>
+                            </Nav.Link>
+
+                            <Nav.Link>
                                 <Link to="#contact">
                                     Contact Us
                                 </Link>

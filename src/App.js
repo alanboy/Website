@@ -16,6 +16,8 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import HomePage from './HomePage/HomePage';
 import TeamsPage from './TeamsPage/TeamsPage';
 import ProjectsPage from './ProjectsPage/ProjectsPage';
+import ResourcesPage from './ResourcesPage/ResourcesPage';
+
 
 
 function App() {
@@ -28,8 +30,9 @@ function App() {
           <Route exact path="/" component={HomePage}></Route>
           <Route exact path="/projects" component={ProjectsPage}></Route>
           <Route exact path="/teams" component={TeamsPage}></Route>
+          <Route exact path="/resources" component={ResourcesPage}></Route>
         </Switch>
-        <div id="contact">
+        <div id="#contact">
             <Footer/>
         </div>
       </div>

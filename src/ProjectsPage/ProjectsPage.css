@@ -3,6 +3,7 @@
 }
 .project-title {
   color: black !important;
+  padding-bottom: 0;
 }
 
 .project-client {
