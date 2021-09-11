@@ -1,10 +1,11 @@
 import React from 'react';
+import './NavBar.css';
 import logo from "../images/w-logo.png";
 
 function Footer() {
   return(
     <div className="Footer">
-      <footer className="footer-section">
+      <footer className="footer-section container-fluid">
         <h2>Contact Us</h2>
         <p>
             Meeting Time: <br/>

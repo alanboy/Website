@@ -1,3 +1,7 @@
+h2 {
+  color: white !important;
+}
+
 a, .nav-link {
   color: #665c84;
   font-size: 20px;
@@ -28,10 +32,6 @@ a:hover {
 #logo {
   font-size: 24px;
   font-weight: bold;
-}
-
-.footer-section{
-  padding: 7% 15%;
 }
 
 .social-media{

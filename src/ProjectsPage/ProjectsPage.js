@@ -7,15 +7,23 @@ import './ProjectsPage.css';
 
 function ProjectsPage() {
   return (
-    //THIS IS WHERE YOU PUT ALL THE HTML
-    //  dont delete this outer div, idk why it doesnt work without it
-    <div className="ProjectsPage">
-      <p>
-        Hello World 
-      </p>
-
-
-    </div>
+    <body className="project">
+      <div className="project-header">
+        <div><h2 className="project-title">Open Sky Studio Website<br/></h2></div>
+        <div><h4 className="project-client">Open Sky Studio</h4></div>
+      </div>
+      <div className="project-body">
+        <div className="pbleft">
+          <h4>Team Members</h4>
+          <h5>Quan Huie</h5>
+          <h6>Frontend Engineer\Design</h6>
+        </div>
+        <div className="pbright">
+          <p>Create a website for a local pilates and massage studio.
+          </p>
+        </div>
+      </div>
+    </body>
   );
 }
 

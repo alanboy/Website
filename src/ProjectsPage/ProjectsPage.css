@@ -1,0 +1,44 @@
+.project {
+  padding: 5% 10%;
+}
+.project-title {
+  color: black !important;
+}
+
+.project-client {
+  opacity: 60%;
+}
+.project-header {
+  margin-bottom: 0.8em;
+  display: flex;
+}
+
+.project-body {
+  font-weight: 300;
+  font-size: 0.6em;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pbleft {
+  width: 55%;
+}
+
+.pbright {
+  width: 35%;
+  color: black;
+}
+
+.user {
+  list-style-position: inside;
+  padding-left: 0;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #cccccc;
+  display: flex;
+  flex-direction: row;
+  transition: .14s;
+  cursor: pointer;
+}
