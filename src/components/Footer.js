@@ -10,9 +10,8 @@ function Footer() {
         <p>
             Meeting Time: <br/>
             Tues and Thurs<br/>
-            More Hall 221<br/>
-            6:00-7:00 pm<br/>
-            More Hall (Mor), Seattle, WA 98195
+            Location <br />
+            TBD
         </p>
         <div className="social-section">
           <a className="social-media" href="https://www.instagram.com/dubvelopers_uw/?hl=en"><i class="fab fa-instagram"></i></a>
