@@ -1,0 +1,9 @@
+.TeamPage {
+   display: flex;
+   justify-content: center;
+   min-height: 30vw;
+}
+
+h1 {
+   align-self: center;
+}
